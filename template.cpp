@@ -1,8 +1,10 @@
 #include "bits/stdc++.h"
+
 #pragma GCC optimize("Ofast")
 // Make __builtin_popcount faster: https://codeforces.com/blog/entry/13134?#comment-736517
 #pragma GCC target("popcnt")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+
 using namespace std;
 
 #define int long long
@@ -73,6 +75,7 @@ char BUF[BUFSIZE+1], *inp=BUF;
 
 int32_t main() {
     ios::sync_with_stdio(0); cin.tie(0);
+ 
     // input
     
     return 0;
